@@ -1,7 +1,4 @@
 $(function () {
-	$('.menu-btn').on('click', function () {
-		$('.menu__list').toggleClass('active');
-	});
 
 	$('.slider').slick({
 		arrows: true,
@@ -11,12 +8,6 @@ $(function () {
 		responsive: [
 			{
 				breakpoint: 1401,
-				settings: {
-					arrows: false,
-				}
-			},
-			{
-				breakpoint: 1301,
 				settings: {
 					arrows: false,
 				}
