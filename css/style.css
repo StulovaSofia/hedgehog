@@ -94,7 +94,11 @@ a {
 body {
   font-family: "Cormorant Infant", serif;
   font-family: "Raleway", sans-serif;
-  overflow-x: hidden;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
 }
 
 .header {
@@ -429,7 +433,6 @@ body {
 
 .container {
   max-width: 1240px;
-  overflow-x: hidden;
   margin: 0 auto;
 }
 
